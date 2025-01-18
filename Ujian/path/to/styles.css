@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #1e3a8a, #1c1c1c);
+    color: #f3f4f6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: #2563eb;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Main Content */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background: rgba(31, 41, 55, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4b5563;
+    border-radius: 5px;
+    background: #374151;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #9ca3af;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(to right, #3b82f6, #2563eb);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #2563eb, #1d4ed8);
+}
+
+/* Footer */
+footer {
+    background: #1f2937;
+    padding: 15px 0;
+    text-align: center;
+    color: #9ca3af;
+}
+
+footer p {
+    margin: 0;
+}
